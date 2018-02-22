@@ -5,29 +5,18 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Weapons extends Item implements WeaponInterface
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Weapons
-     */
-    public Weapons()
-    {
-        // initialise instance variables
-        x = 0;
+public abstract class Weapons extends Item implements WeaponInterface{
+    int damage;
+    int durability;
+    String type;
+    
+    public Weapons(int damage, int durability, String type){
+        this.damage = damage;
+        this.durability = durability;
+        this.type = type;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void sampleMethod(){
+        
     }
 }

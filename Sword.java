@@ -5,18 +5,12 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Sword extends Weapons
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
+public class Sword extends Weapons{
     /**
      * Constructor for objects of class Sword
      */
-    public Sword()
-    {
-        // initialise instance variables
-        x = 0;
+    public Sword(int damage, int durability, String type){
+        super(damage, durability, type);
     }
 
     /**

@@ -5,18 +5,9 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Trident extends Weapons
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Trident
-     */
-    public Trident()
-    {
-        // initialise instance variables
-        x = 0;
+public class Trident extends Weapons{
+    public Trident(int damage, int durability, String type){
+        super(damage, durability, type);
     }
 
     /**
