@@ -8,7 +8,6 @@
 public abstract class Weapons extends Item implements WeaponInterface{
     int damage;
     int durability;
-    String type;
     
     public Weapons(int damage, int durability, String type){
         this.damage = damage;
