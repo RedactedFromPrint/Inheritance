@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class IronSword
+public class IronSword extends Weapons
 {
     // instance variables - replace the example below with your own
     private int x;

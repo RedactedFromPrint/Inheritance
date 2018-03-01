@@ -1,13 +1,22 @@
 
 /**
- * Write a description of class Trident here.
+ * Write a description of class StoneAxeWeapon here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Trident extends Weapons{
-    public Trident(int damage, int durability, String type){
-        super(damage, durability, type);
+public class StoneAxeWeapon extends Weapons
+{
+    // instance variables - replace the example below with your own
+    private int x;
+
+    /**
+     * Constructor for objects of class StoneAxeWeapon
+     */
+    public StoneAxeWeapon()
+    {
+        // initialise instance variables
+        x = 0;
     }
 
     /**

@@ -1,16 +1,22 @@
 
 /**
- * Write a description of class Sword here.
+ * Write a description of class WoodenAxeWeapon here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Sword extends Weapons{
+public class WoodenAxeWeapon extends Weapons
+{
+    // instance variables - replace the example below with your own
+    private int x;
+
     /**
-     * Constructor for objects of class Sword
+     * Constructor for objects of class WoodenAxeWeapon
      */
-    public Sword(int damage, int durability, String type){
-        super(damage, durability, type);
+    public WoodenAxeWeapon()
+    {
+        // initialise instance variables
+        x = 0;
     }
 
     /**

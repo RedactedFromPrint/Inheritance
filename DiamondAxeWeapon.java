@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class GoldSword here.
+ * Write a description of class DiamondAxeWeapon here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class GoldSword extends Weapons
+public class DiamondAxeWeapon extends Weapons
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class GoldSword
+     * Constructor for objects of class DiamondAxeWeapon
      */
-    public GoldSword()
+    public DiamondAxeWeapon()
     {
         // initialise instance variables
         x = 0;
