@@ -7,16 +7,12 @@
  */
 import java.lang.Math;
 public class WoodenSword extends Weapons{
-    int damage;
-    int durability;
     public WoodenSword(int damage, int durability){
-        damage = 4;
-        durability = 60;
+        super(damage, durability);
     }
 
     public int attack(){
         return 4;
-        durability -= 1;
     }
     
     public boolean parry(){
