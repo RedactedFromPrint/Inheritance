@@ -6,8 +6,8 @@
  * @version (a version number or a date)
  */
 public class StoneSword extends Weapons{
-    public StoneSword(int damage, int durability){
-        super(damage, durability);
+    public StoneSword(int damage){
+        super(damage);
     }
 
     public int attack(){

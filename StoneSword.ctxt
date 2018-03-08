@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=StoneSword
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ StoneSword\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=damage\ durability
-comment1.target=StoneSword(int,\ int)
+comment1.params=damage
+comment1.target=StoneSword(int)
 comment2.params=
 comment2.target=int\ attack()
 comment3.params=

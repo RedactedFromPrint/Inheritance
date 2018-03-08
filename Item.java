@@ -10,6 +10,11 @@ public abstract class Item implements ItemInterface{
     //Implemented in your own way
     String name;
     ArrayList stats;
+    public Item(String name){
+        this.name = name;
+        stats = new ArrayList();
+        stats.add(name);
+    }
     public ArrayList getStats(){
         return stats;
     }

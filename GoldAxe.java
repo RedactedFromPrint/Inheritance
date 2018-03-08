@@ -1,14 +1,14 @@
 
 /**
- * Write a description of class GoldAxeWeapon here.
+ * Write a description of class GoldAxe here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class GoldAxeWeapon extends Weapons
+public class GoldAxe extends Weapons
 {
-    public GoldAxeWeapon(int damage, int durability){
-        super(damage, durability);
+    public GoldAxe(int damage){
+        super(damage);
     }
 
     public int attack(){

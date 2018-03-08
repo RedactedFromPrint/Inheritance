@@ -7,8 +7,8 @@
  */
 import java.lang.Math;
 public class WoodenSword extends Weapons{
-    public WoodenSword(int damage, int durability){
-        super(damage, durability);
+    public WoodenSword(int damage){
+        super(damage);
     }
 
     public int attack(){

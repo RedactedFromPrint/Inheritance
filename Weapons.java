@@ -7,10 +7,8 @@
  */
 public abstract class Weapons extends Item implements WeaponInterface{
     int damage;
-    int durability;
     
-    public Weapons(int damage, int durability){
+    public Weapons(int damage){
         this.damage = damage;
-        this.durability = durability;
     }
 }

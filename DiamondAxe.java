@@ -1,23 +1,23 @@
 
 /**
- * Write a description of class WoodenAxeWeapon here.
+ * Write a description of class DiamondAxe here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class WoodenAxeWeapon extends Weapons
+public class DiamondAxe extends Weapons
 {
-    public WoodenAxeWeapon(int damage, int durability){
-        super(damage, durability);
+    public DiamondAxe(int damage){
+        super(damage);
     }
 
     public int attack(){
-        return 7;
+        return 9;
     }
     
     public boolean parry(){
         int chance = (int)(Math.random() * 10);
-        if (chance <= 1){
+        if (chance <= 5){
             return true;
         }else{
             return false;
