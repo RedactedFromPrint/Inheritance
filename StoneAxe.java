@@ -5,10 +5,9 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class StoneAxe extends Weapons
-{
-    public StoneAxe(int damage){
-        super(damage);
+public class StoneAxe extends Weapons{
+    public StoneAxe(String name){
+        super(name);
     }
 
     public int attack(){
@@ -17,7 +16,7 @@ public class StoneAxe extends Weapons
     
     public boolean parry(){
         int chance = (int)(Math.random() * 10);
-        if (chance <= 3){
+        if (chance < 3){
             return true;
         }else{
             return false;

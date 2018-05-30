@@ -5,10 +5,16 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Character
+public abstract class Character
 {
-    int health = 100;
-    public int health(){
+    public static int health;
+    String name;
+    
+    public Character(String name){
+        this.name = name;
+    }
+    
+    public int getHealth(){
         return health;
     }
 }

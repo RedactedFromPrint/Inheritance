@@ -6,8 +6,8 @@
  * @version (a version number or a date)
  */
 public class IronSword extends Weapons{
-    public IronSword(int damage){
-        super(damage);
+    public IronSword(String name){
+        super(name);
     }
 
     public int attack(){
@@ -16,7 +16,7 @@ public class IronSword extends Weapons{
     
     public boolean parry(){
         int chance = (int)(Math.random() * 10);
-        if (chance <= 6){
+        if (chance < 6){
             return true;
         }else{
             return false;

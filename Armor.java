@@ -5,13 +5,38 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Armor extends Item implements DefenseCommands
+import java.lang.Math;
+public class Armor extends Item implements DefenseCommands
 {
-    boolean blocked;
-    public Armor(String name){
+    String type;
+    int chance;
+    
+    public Armor(String name, String type){
         super(name);
+        this.type = type;
+        if (type.equals("Leather")){
+            chance = 3;
+        }
+        else if(type.equals("Gold")){
+            chance = 5;
+        }
+        else if(type.equals("Chain")){
+            chance = 5;
+        }
+        else if(type.equals("Iron")){
+            chance = 6;
+        }
+        else{
+            chance = 8;
+        }
     }
+    
     public boolean blocked(){
-        return blocked;
+        int block = (int)(Math.random() * 10);
+        if (block < chance){
+            return true;
+        } else{
+            return false;
+        }
     }
 }
